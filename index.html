@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+
+<!-- Bootstrap CSS
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Coda|Monoton&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/63f5067be9.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    
+    <header id="head">
+        <h1 id="h1">Memory Game</h1>
+    </header>
+    <div id="updates">
+        <div id="timer">00:00</div>
+        <div id="score">Score: 0</div>
+        <button id="newBtn">New Game</button>
+    </div>
+    <div id="game">
+        <!-- boxes -->
+        <div class="cards" id="card1">
+            <div class="back" id="back1"><img src="img/apple.png"></div>
+            <div class="front" id="front1">?</div>
+        </div>
+        <div class="cards" id="card2">
+            <div class="back" id="back2"><img src="img/apple.png"></div>
+            <div class="front" id="front2">?</div>
+        </div>
+        <div class="cards" id="card3">
+            <div class="back" id="back3"><img src="img/blinky.png"></div>
+            <div class="front" id="front3">?</div>
+        </div>
+        <div class="cards" id="card4">
+            <div class="back" id="back4"><img src="img/blinky.png"></div>
+            <div class="front" id="front4">?</div>
+        </div>
+        <div class="cards" id="card5">
+            <div class="back" id="back5"><img src="img/cherry.png"></div>
+            <div class="front" id="front5">?</div>
+        </div>
+        <div class="cards" id="card6">
+            <div class="back" id="back6"><img src="img/cherry.png"></div>
+            <div class="front" id="front6">?</div>
+        </div>
+        <div class="cards" id="card7">
+            <div class="back" id="back7"><img src="img/clyde.png"></div>
+            <div class="front" id="front7">?</div>
+        </div>
+        <div class="cards" id="card8">
+            <div class="back" id="back8"><img src="img/clyde.png"></div>
+            <div class="front" id="front8">?</div>
+        </div>
+        <div class="cards" id="card9">
+            <div class="back" id="back9"><img src="img/inky.png"></div>
+            <div class="front" id="front9">?</div>
+        </div>
+        <div class="cards" id="card10">
+            <div class="back" id="back10"><img src="img/inky.png"></div>
+            <div class="front" id="front10">?</div>
+        </div>
+        <div class="cards" id="card11">
+            <div class="back" id="back11"><img src="img/pacman.png"></div>
+            <div class="front" id="front11">?</div>
+        </div>
+        <div class="cards" id="card12">
+            <div class="back" id="back12"><img src="img/pacman.png"></div>
+            <div class="front" id="front12">?</div>
+        </div>
+        <div class="cards" id="card13">
+            <div class="back" id="back13"><img src="img/pacwoman.png"></div>
+            <div class="front" id="front13">?</div>
+        </div>
+        <div class="cards" id="card14">
+            <div class="back" id="back14"><img src="img/pacwoman.png"></div>
+            <div class="front" id="front14">?</div>
+        </div>
+        <div class="cards" id="card15">
+            <div class="back" id="back15"><img src="img/pinky.png"></div>
+            <div class="front" id="front15">?</div>
+        </div>
+        <div class="cards" id="card16">
+            <div class="back" id="back16"><img src="img/pinky.png"></div>
+            <div class="front" id="front16">?</div>
+        </div>
+        <div class="cards" id="card17">
+            <div class="back" id="back17"><img src="img/strawberry.png"></div>
+            <div class="front" id="front17">?</div>
+        </div>
+        <div class="cards" id="card18">
+            <div class="back" id="back18"><img src="img/strawberry.png"></div>
+            <div class="front" id="front18">?</div>
+        </div>
+        <div class="cards" id="card19">
+            <div class="back" id="back19"><img src="img/vulnerable.png"></div>
+            <div class="front" id="front19">?</div>
+        </div>
+        <div class="cards" id="card20">
+            <div class="back" id="back20"><img src="img/vulnerable.png"></div>
+            <div class="front" id="front20">?</div>
+        </div>
+        
+    </div>
+    <!-- end of card boxes -->
+    <div id="opacityD"></div>
+    <div id="result">
+        <div id="popBody">
+            <div id="imgDiv"> <img src="img/thumbs.png"></div>
+            <h1 id="h1Res"></h1>
+            <p id="pRes"></p>
+        </div>
+        <div id="popOkay">
+            <div id="okayButton">
+                <button>Great!</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+<script src="img.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

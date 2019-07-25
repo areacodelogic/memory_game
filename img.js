@@ -1,0 +1,23 @@
+
+var images = [
+  '<img src="img/apple.png">',
+  '<img src="img/apple.png">',
+  '<img src="img/blinky.png">',
+  '<img src="img/blinky.png">',
+  '<img src="img/cherry.png">',
+  '<img src="img/cherry.png">',
+  '<img src="img/clyde.png">',
+  '<img src="img/clyde.png">',
+  '<img src="img/inky.png">',
+  '<img src="img/inky.png">',
+  '<img src="img/pacman.png">',
+  '<img src="img/pacman.png">',
+  '<img src="img/pacwoman.png">',
+  '<img src="img/pacwoman.png">',
+  '<img src="img/pinky.png">',
+  '<img src="img/pinky.png">',
+  '<img src="img/strawberry.png">',
+  '<img src="img/strawberry.png">',
+  '<img src="img/vulnerable.png">',
+  '<img src="img/vulnerable.png">',
+];
